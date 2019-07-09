@@ -1,0 +1,59 @@
+[debug] [2019-07-09T15:45:39.340Z] ----------------------------------------------------------------------
+[debug] [2019-07-09T15:45:39.343Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --debug --only hosting,functions
+[debug] [2019-07-09T15:45:39.344Z] CLI Version:   6.8.0
+[debug] [2019-07-09T15:45:39.344Z] Platform:      linux
+[debug] [2019-07-09T15:45:39.344Z] Node Version:  v8.16.0
+[debug] [2019-07-09T15:45:39.344Z] Time:          Tue Jul 09 2019 19:45:39 GMT+0400 (+04)
+[debug] [2019-07-09T15:45:39.345Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-09T15:45:39.352Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-09T15:45:39.353Z] > authorizing via signed-in user
+[debug] [2019-07-09T15:45:39.353Z] [iam] checking project social-73201 for permissions ["firebase.projects.get"]
+[debug] [2019-07-09T15:45:39.355Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/social-73201:testIamPermissions  
+
+[debug] [2019-07-09T15:45:40.593Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-09T15:45:40.600Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/social-73201  
+ 
+[debug] [2019-07-09T15:45:41.709Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/nona/Desktop/Soc-ape'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-07-09T15:45:42.105Z] Fetching environment
+[debug] [2019-07-09T15:45:42.107Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/869131514114:getServerAppConfig  
+ 
+[debug] [2019-07-09T15:45:42.526Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-09T15:45:42.527Z] Starting @google-cloud/functions-emulator
+[debug] [2019-07-09T15:45:43.565Z] Parsing function triggers
+[warn] ⚠  functions: Error from emulator. [object Object]
+[debug] [2019-07-09T15:45:46.051Z] 
+[info] Shutting down...
+[debug] [2019-07-09T15:49:42.989Z] ----------------------------------------------------------------------
+[debug] [2019-07-09T15:49:42.992Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-07-09T15:49:42.992Z] CLI Version:   6.8.0
+[debug] [2019-07-09T15:49:42.992Z] Platform:      linux
+[debug] [2019-07-09T15:49:42.992Z] Node Version:  v8.16.0
+[debug] [2019-07-09T15:49:42.992Z] Time:          Tue Jul 09 2019 19:49:42 GMT+0400 (+04)
+[debug] [2019-07-09T15:49:42.992Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-09T15:49:43.002Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-09T15:49:43.002Z] > authorizing via signed-in user
+[debug] [2019-07-09T15:49:43.002Z] [iam] checking project social-73201 for permissions ["firebase.projects.get"]
+[debug] [2019-07-09T15:49:43.004Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/social-73201:testIamPermissions  
+
+[debug] [2019-07-09T15:49:44.132Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-09T15:49:44.134Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/social-73201  
+ 
+[debug] [2019-07-09T15:49:45.217Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/nona/Desktop/Soc-ape'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-07-09T15:49:45.610Z] Fetching environment
+[debug] [2019-07-09T15:49:45.612Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/869131514114:getServerAppConfig  
+ 
+[debug] [2019-07-09T15:49:46.035Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-09T15:49:46.036Z] Starting @google-cloud/functions-emulator
+[debug] [2019-07-09T15:49:47.086Z] Parsing function triggers
+[info] ✔  functions: getScreams: http://localhost:5000/social-73201/us-central1/getScreams
+[info] ✔  functions: createScream: http://localhost:5000/social-73201/us-central1/createScream

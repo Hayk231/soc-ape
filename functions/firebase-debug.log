@@ -1,0 +1,114 @@
+[debug] [2019-07-09T15:14:22.367Z] ----------------------------------------------------------------------
+[debug] [2019-07-09T15:14:22.369Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-07-09T15:14:22.369Z] CLI Version:   7.0.2
+[debug] [2019-07-09T15:14:22.369Z] Platform:      linux
+[debug] [2019-07-09T15:14:22.369Z] Node Version:  v12.6.0
+[debug] [2019-07-09T15:14:22.369Z] Time:          Tue Jul 09 2019 19:14:22 GMT+0400 (Armenia Standard Time)
+[debug] [2019-07-09T15:14:22.369Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-09T15:14:22.375Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-09T15:14:22.376Z] > authorizing via signed-in user
+[debug] [2019-07-09T15:14:22.376Z] [iam] checking project social-73201 for permissions ["firebase.projects.get"]
+[debug] [2019-07-09T15:14:22.377Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/social-73201:testIamPermissions  
+
+[debug] [2019-07-09T15:14:23.463Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-09T15:14:23.467Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/social-73201  
+ 
+[debug] [2019-07-09T15:14:24.505Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/nona/Desktop/Soc-ape'...
+[info] 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[debug] [2019-07-09T15:14:24.515Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/869131514114:getServerAppConfig  
+ 
+[debug] [2019-07-09T15:14:24.912Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "/home/nona/Desktop/Soc-ape/functions" for Cloud Functions...
+[debug] [2019-07-09T15:14:24.951Z] Error: listen EADDRINUSE: address already in use 127.0.0.1:5000
+    at Server.setupListenHandle [as _listen2] (net.js:1228:14)
+    at listenInCluster (net.js:1276:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1415:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:65:10)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-07-09T15:14:25.126Z] Functions runtime initialized.
+[debug] [2019-07-09T15:14:25.126Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-07-09T15:14:25.166Z] firebase-admin has been stubbed.
+[warn] ⚠  TypeError: _onRequestWithOpts is not a function
+    at Object.httpsProvider._onRequestWithOpts (/usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:278:24)
+    at Object.httpsProvider.onRequest (/usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:283:34)
+    at Object.<anonymous> (/home/nona/Desktop/Soc-ape/functions/index.js:13:38)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:643:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+    at Module.require (internal/modules/cjs/loader.js:683:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at /usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:582:33
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-07-09T15:17:13.416Z] ----------------------------------------------------------------------
+[debug] [2019-07-09T15:17:13.418Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-07-09T15:17:13.418Z] CLI Version:   6.8.0
+[debug] [2019-07-09T15:17:13.418Z] Platform:      linux
+[debug] [2019-07-09T15:17:13.418Z] Node Version:  v12.6.0
+[debug] [2019-07-09T15:17:13.418Z] Time:          Tue Jul 09 2019 19:17:13 GMT+0400 (Armenia Standard Time)
+[debug] [2019-07-09T15:17:13.418Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-09T15:17:13.424Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-09T15:17:13.424Z] > authorizing via signed-in user
+[debug] [2019-07-09T15:17:13.425Z] [iam] checking project social-73201 for permissions ["firebase.projects.get"]
+[debug] [2019-07-09T15:17:13.426Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/social-73201:testIamPermissions  
+
+[debug] [2019-07-09T15:17:14.523Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-09T15:17:14.526Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/social-73201  
+ 
+[debug] [2019-07-09T15:17:15.719Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/nona/Desktop/Soc-ape'...
+[info] 
+[debug] [2019-07-09T15:17:16.253Z] Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/logs'
+    at Object.mkdirSync (fs.js:764:3)
+    at Object.assertLogsPath (/usr/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/emulator/logs.js:65:10)
+    at new Controller (/usr/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/cli/controller.js:77:32)
+    at FunctionsEmulator.start (/usr/lib/node_modules/firebase-tools/lib/functionsEmulator.js:102:23)
+    at Object.start (/usr/lib/node_modules/firebase-tools/lib/serve/functions.js:7:33)
+    at /usr/lib/node_modules/firebase-tools/lib/serve/index.js:15:23
+    at arrayMap (/usr/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:639:23)
+    at Function.map (/usr/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:9556:14)
+    at _serve (/usr/lib/node_modules/firebase-tools/lib/serve/index.js:13:26)
+    at Command._action (/usr/lib/node_modules/firebase-tools/lib/commands/serve.js:55:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-07-09T15:21:58.516Z] ----------------------------------------------------------------------
+[debug] [2019-07-09T15:21:58.519Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-07-09T15:21:58.519Z] CLI Version:   6.8.0
+[debug] [2019-07-09T15:21:58.519Z] Platform:      linux
+[debug] [2019-07-09T15:21:58.519Z] Node Version:  v8.16.0
+[debug] [2019-07-09T15:21:58.519Z] Time:          Tue Jul 09 2019 19:21:58 GMT+0400 (+04)
+[debug] [2019-07-09T15:21:58.519Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-09T15:21:58.527Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-09T15:21:58.527Z] > authorizing via signed-in user
+[debug] [2019-07-09T15:21:58.527Z] [iam] checking project social-73201 for permissions ["firebase.projects.get"]
+[debug] [2019-07-09T15:21:58.529Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/social-73201:testIamPermissions  
+
+[debug] [2019-07-09T15:21:59.678Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-09T15:21:59.680Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/social-73201  
+ 
+[debug] [2019-07-09T15:22:00.799Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/nona/Desktop/Soc-ape'...
+[info] 
+[debug] [2019-07-09T15:22:01.448Z] Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/logs'
+    at Object.fs.mkdirSync (fs.js:885:18)
+    at Object.assertLogsPath (/usr/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/emulator/logs.js:65:10)
+    at new Controller (/usr/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/cli/controller.js:77:32)
+    at FunctionsEmulator.start (/usr/lib/node_modules/firebase-tools/lib/functionsEmulator.js:102:23)
+    at Object.start (/usr/lib/node_modules/firebase-tools/lib/serve/functions.js:7:33)
+    at /usr/lib/node_modules/firebase-tools/lib/serve/index.js:15:23
+    at arrayMap (/usr/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:639:23)
+    at Function.map (/usr/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:9556:14)
+    at _serve (/usr/lib/node_modules/firebase-tools/lib/serve/index.js:13:26)
+    at Command.module.exports.Command.description.option.option.option.option.before.action [as _action] (/usr/lib/node_modules/firebase-tools/lib/commands/serve.js:55:12)
+[error] 
+[error] Error: An unexpected error has occurred.
